@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lista de Contactos</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="javascript.js">
+   
+
+</head>
+<body>
+	<div class="container">
+		<div class="form-container">
+			<label>Añadir Contacto:</label>
+			<input type="text" id="nombre" placeholder="Nombre">
+			<input type="text" id="apellido" placeholder="Apellido">
+			<button onclick="agregarContacto()">Agregar</button>
+		</div>
+		<div class="contact-list">
+			<label>Lista de Contactos:</label>
+			<div id="lista"></div>
+		</div>
+	</div>
+
+	<script src="javascript.js"></script>
+</body>
+</html>
